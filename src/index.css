@@ -1,0 +1,23 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Lora:wght@700&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+@theme {
+  /* Light Theme */
+  --color-primary: #1E40AF;  /* blue */ 
+  --color-secondary: #1F2937;/* darkgray */
+  --color-accent: #F59E0B;   /* yellow */
+
+  --color-textone: #ffff;   /* white */
+  --color-texttwo: #1F2937;   /* darkgray */
+
+  
+
+  /* Fonts */
+  --font-sans: 'Roboto', sans-serif;
+  --font-heading: 'Lora', serif;
+}
