@@ -2,6 +2,7 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import Button1 from "../Buttons/Button1";
 import ScrollVelocity from "./ScrollVelocity";
+import bgImg from '../../assets/images/bgImg.jpg';
 
 const HeroSection = () => {
 
@@ -11,7 +12,7 @@ const HeroSection = () => {
     <>
       <div
         className="min-h-screen bg-cover bg-center relative px-4 sm:px-6 lg:px-8 flex items-center"
-        style={{ backgroundImage: "url('src/assets/images/bgimg.jpg')" }}
+        style={{ backgroundImage: `url(${bgImg})` }}
       >
         <div className="max-w-7xl mx-auto relative z-10 flex flex-col lg:flex-row justify-between items-center gap-8">
           {/* Content */}
